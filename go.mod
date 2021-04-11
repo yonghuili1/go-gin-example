@@ -9,7 +9,7 @@ require (
 	github.com/go-playground/validator/v10 v10.5.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/jinzhu/gorm v1.9.16 // indirect
+	github.com/jinzhu/gorm v1.9.16
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -24,11 +24,11 @@ require (
 )
 
 replace (
+	#github.com/yonghuili1/go-gin-example/pkg/setting => ./go-gin-example/pkg/setting
 	github.com/yonghuili1/go-gin-example/conf => ./go-gin-example/pkg/conf
 	github.com/yonghuili1/go-gin-example/middleware => ./go-gin-example/middleware
 	github.com/yonghuili1/go-gin-example/models => ./go-gin-example/models
 	github.com/yonghuili1/go-gin-example/pkg/e => ./go-gin-example/pkg/e
-	github.com/yonghuili1/go-gin-example/pkg/setting => ./go-gin-example/pkg/setting
 	github.com/yonghuili1/go-gin-example/pkg/util => ./go-gin-example/pkg/util
 	github.com/yonghuili1/go-gin-example/routers => ./go-gin-example/routers
 )
